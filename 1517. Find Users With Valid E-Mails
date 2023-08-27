@@ -1,0 +1,3 @@
+SELECT email AS email
+FROM Users
+WHERE email REGEXP '^[a-zA-Z][a-zA-Z0-9._-]*@leetcode\.com$';
